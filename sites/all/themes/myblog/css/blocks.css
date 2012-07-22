@@ -21,6 +21,7 @@
 }
 
 h2.block-title /* Block title */ {
+
 }
 
 .block .content /* Block's content wrapper */ {
@@ -31,6 +32,10 @@ h2.block-title /* Block title */ {
 .block .content p {
     margin: 10px 0;
     font-size: 1.1em;
+}
+.region-sidebar-second .block /* Blocks in second sidebar */ {
+    margin-top: 1.5em;
+    border-bottom: 1px dotted #999;	
 }
 #block-aggregator-category-1 /* Block for the latest news items in the first category */ {
 }
@@ -75,6 +80,8 @@ h2.block-title /* Block title */ {
 }
 
 #block-search-form /* "Search form" block */ {
+     margin-top: 0;
+    padding-bottom: 1.5em;
 }
 
 #block-shortcut-shortcuts /* "Shortcuts" block */ {
